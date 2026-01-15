@@ -1,15 +1,15 @@
 from typing import Dict
 
 # Only allow trades in these symbols (edit as you like)
-WHITELIST = {"AAPL", "MSFT", "SPY"}
+WHITELIST = {"MRK", "BK", "PFE"}
 
 
 def target_weights() -> Dict[str, float]:
     # Replace with your model output
     return {
-        "AAPL": 0.25,
-        "MSFT": 0.25,
-        "SPY": 0.50,
+        "MRK": 0.25,
+        "BK": 0.25,
+        "PFE": 0.50,
     }
 
 

@@ -42,7 +42,7 @@ def main():
     })
     print(f"\nSaved log: {log_path}")
 
-    max_order_shares(deltas, max_shares_per_order=200)
+    max_order_shares(deltas, max_shares_per_order=2500)
 
     orders = orders_from_deltas(deltas)
     if not orders:
